@@ -14,7 +14,7 @@ services:
       - TZ=Europe/London
       - SERVERURL=${APP_URL} #public IP of Server
       - SERVERPORT=51820 #optional
-      - PEERS=1 #optional
+      - PEERS=10 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=192.168.2.1 #your intranet gateway
       - ALLOWEDIPS=0.0.0.0/0 #optional
