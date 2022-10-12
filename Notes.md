@@ -27,12 +27,18 @@
    ```
  3. 连接
 
-#### 一个隧道是否可以多人使用？
+#### 一个隧道（Peer）是否可以多人使用？
 
-可以
+不可以，需通过修改环境变量 PEERS 更改数量
 
 #### 如何增加更多隧道？
 
+更改 PEERS 的值即可
+
 参考：https://github.com/linuxserver/docker-wireguard
+
+#### Peer.conf 文件中的 Address 需要与本地电脑 IP 一致吗？
+
+不需要
 
 
